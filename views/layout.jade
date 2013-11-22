@@ -1,0 +1,33 @@
+doctype 5
+html
+  head
+    title Csv App!
+    link(rel='stylesheet', href='/components/bootstrap/dist/css/bootstrap.css')
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    script(type="text/javascript", src="/components/jquery/jquery.min.js")
+    script(type="text/javascript", src="/components/underscore/underscore-min.js")
+    script(type="text/javascript", src="/components/bootstrap/dist/js/bootstrap.min.js")
+    script(type="text/javascript", src="/components/bootstrap-file-input/bootstrap.file-input.js")
+    script(type="text/javascript", src="/components/jquery-form/jquery.form.js")
+    script(type="text/javascript", src="/components/backbone/backbone-min.js")
+    script(type="text/javascript")
+      var CsvApp = {};
+    script(src="/javascripts/fileupload-view.js")
+    script(src="/javascripts/data-table-view.js")
+  body
+    block content
+
+  script(id="fileform",type="text/template")
+    |<div>
+    |  <form action="/upload" method="post" enctype="multipart/form-data">
+    |    <input type="file" name="csvfile" />
+    |    <br />
+    |  </form>
+    |</div>
+
+  script(id="dataTable",type="text/template")
+    |<div>
+    |  <table style="display:none" class="table"></table>
+    |</div>
+
+  script(type="text/javascript", src="/javascripts/main.js")

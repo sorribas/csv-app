@@ -1,0 +1,23 @@
+{
+  "name": "csvapp-client",
+  "version": "0.0.1",
+  "authors": [
+    "Eduardo Sorribas <eduardo@sorribas.org>"
+  ],
+  "dependencies": {
+    "jquery": "1.10.x",
+    "jquery-form": "3.45.0",
+    "underscore": "1.5.2",
+    "backbone": "1.1.0",
+    "bootstrap": "3.0.2",
+    "bootstrap-file-input": "*"
+  },
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

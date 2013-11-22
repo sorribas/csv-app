@@ -1,0 +1,20 @@
+{
+  "name": "csvapp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "3.4.4",
+    "jade": "*",
+    "csv": "0.3.6",
+    "connect-busboy": "0.0.1",
+    "iconv": "2.0.7",
+    "jschardet": "1.1.0"
+  },
+  "devDependencies" : {
+    "mocha": "1.14.0",
+    "should": "2.1.0"
+  }
+}
